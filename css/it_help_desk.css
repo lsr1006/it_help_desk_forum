@@ -1,0 +1,399 @@
+/*
+ * Team4: IT Tech Support - CSS File - 3/16/2021
+ * Logan Racer, Tanuj Rane, Zach Zulick, Evan Anzevino
+ */
+
+/*  
+ * Colors used:
+ * Blue -   #1e3d59
+ * Yellow - #ffc13b
+ * Orange - #ff6e40
+ * White -  #f5f0e1
+ * Grey - 	 #d9d9d9
+ */
+
+
+/* ========================= Navigation Bar =================================== */
+.nav-button {
+	background-color:#1e3d59;
+	color: white;
+	padding: 16px;
+	font-size: 18px;
+	font-family: Rockwell, Times New Roman, Sans-Serif;
+	border: none;
+}
+
+.nav-button:hover {
+	background-color: #ff6e40;
+}
+
+.header-links {
+	padding:1px;
+	text-align:center;
+}
+
+/* ====================== Content Structure =================================== */
+.content {
+	/*border-style: solid;
+	border-width: 1px;*/
+	padding: 0px;
+	clear:both;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	display:block;
+	background-color: #f5f0e1;
+}
+
+.header {
+	/*border-style: solid;
+	border-width: 1px;*/
+	height: auto;
+	margin: 0px;
+	padding: 5px;
+	clear: both;
+	background-color: #ffc13b;
+}
+
+.body {
+	margin: 2px;
+	padding: 2px;
+	height: auto;
+	min-height: 700px;
+	overflow:auto;
+}
+
+.footer {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 0px;
+	padding: 10px;
+	min-height: 50px;
+	clear: both;
+	background-color: #ffc13b;
+	text-align: center;
+}
+
+
+.signin-register {
+	text-align: center;
+	margin-top: 200px;
+	/*
+	margin-left: 500px;
+	margin-right: 500px;
+	*/
+	width: 500px;
+	background-color: #ffc13b;
+}
+
+
+body {
+	font-family: Rockwell, Times New Roman, Sans-Serif;
+	background-color: #1e3d59;
+}
+
+p {
+	padding:0px;
+	margin:0px;
+}
+
+h5{
+	margin: 5px;
+	text-align: center;
+}
+
+a:link {
+	color: #1e3d59;
+}
+
+a:visited {
+	color: #1e3d59;
+}
+
+a:hover {
+	color: #ff6e40
+}
+/* ============================== Home Page =================================== */
+.right-content {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	min-height: 510px;
+}
+
+.welcome-container {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 0px;
+	padding: 5px;
+	float: left;
+	clear: both;
+	width: 460px;
+	min-height: 492px;
+	float: left;
+}
+
+.recent-posts {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 1px;
+	padding: 1px;
+	float: right;
+	clear: both;
+	width: 470px;
+	position:relative;
+	overflow-x: hidden;
+	height: 320px;
+	font-size: 12px;
+}
+
+.members-online {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 1px;
+	padding: 1px;
+	float: right;
+	clear: both;
+	width: 470px;
+}
+
+.welcome-message {
+	background-color: #d9d9d9;
+	margin-left:30px;
+	padding: 15px;
+	margin-top: 5px;
+	height: 400px;
+	font-size: 18px;
+}
+
+.anoucment-area{
+    clear: both;
+    border: 2px solid black;
+    background-color: #d9d9d9;
+}
+
+.italics {
+	font-style: italic;
+}
+
+/* ============================= Forum Main =================================== */
+.topic-container {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 1px;
+	padding: 1px;
+}
+
+.topic {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 1px;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #ffc13b;
+	color: #000000;
+	height: auto;
+	overflow: auto;
+}
+
+.topic-name {
+	font-size: 22px;
+	font-weight: bold;
+	color: #000000;
+	padding-left: 10px;
+	margin: 0px;
+}
+
+.sub-topic {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 1px;
+	margin-top: 8px;
+	margin-left:30px;
+	padding: 5px;
+	background-color: #d9d9d9;
+	text-align:left;
+	
+}
+
+.new-thread {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 1px;
+	margin-top: 8px;
+	margin-left:30px;
+	padding: 5px;
+	background-color: #d9d9d9;
+	text-align:left;
+	
+}
+
+.sub-topic:hover {
+	background-color: #ff6e40;
+}
+
+.sub-topic-summary {
+	float: right;
+	font-size: 14px;
+}
+
+
+/* ============================ Thread Page =================================== */
+.op-header {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 1px;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #ffc13b;
+	color: #000000;
+	height: auto;
+
+}
+
+.original-post {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 2px;
+	padding: 2px;
+	height: auto;
+	overflow:auto;
+}
+
+.best-answer {
+	border-style: solid;
+	border-width: 3px;
+	border-color: #ff6e40;
+	margin: 2px;
+	padding: 0px;
+	height: auto;
+	overflow:auto;
+}
+
+.best-answer-text {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 0px;
+	padding: 1px;
+	background-color: #ff6e40;
+	color: #000000;
+	height: auto;
+	overflow: auto;
+}
+
+.profile {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 2px;
+	padding: 2px;
+	float: left;
+	width: 15%;
+	min-height: 240px;
+	background-color: #1e3d59;
+	color: #f5f0e1;
+}
+
+.profile-picture {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #1e3d59;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 5px;
+	display:block;
+	padding: 2px;
+	width: 120px;
+	height: 120px;
+}
+
+.profile-picture:hover {
+	border-color: #ff6e40;
+}
+
+.post-content {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 2px;
+	padding: 2px;
+	float: left;
+	width: 82%;
+	min-height: 240px;
+	position: relative;
+	background-color: #d9d9d9;
+}
+
+.post-timestamp {
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	font-style: italic;
+	padding: 5px;
+	color: #595959;
+	font-size: 14px;
+}
+
+
+/* ======================== Topic Thread List ================================== */
+.btn-new-post {
+	background-color:#1e3d59;
+	color: white;
+	padding: 7px;
+	margin: auto;
+	margin-left: 3px;
+	font-size: 14px;
+	font-family: Rockwell, Times New Roman, Sans-Serif;
+	border: none;
+	float: right;
+	clear: all;
+}
+
+.btn-new-post:hover {
+	background-color: #ff6e40;
+}
+
+.btn-search {
+	background-color:#1e3d59;
+	color: white;
+	padding: 7px;
+	margin: auto;
+	margin-left: 3px;
+	font-size: 14px;
+	font-family: Rockwell, Times New Roman, Sans-Serif;
+	border: none;
+}
+
+.btn-search:hover {
+	background-color: #ff6e40;
+}
+
+.header-title {
+	padding-left:40px;
+	font-size:42px;
+}
+
+
+/* ======================== Profile =============================================== */
+.user-dec{
+	text-align: center; 
+}
+
+.user-dec2{
+	border: 2px solid black;
+	background-color: #d9d9d9;
+	border-style: solid;
+	border-width: 1px;
+	padding: 1px;
+	margin: 1px;
+}
+
+.user-dec3{
+	overflow:scroll;
+	height: 200px;
+}
+
+textarea {
+    resize: none;
+}
