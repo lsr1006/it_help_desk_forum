@@ -1,0 +1,28 @@
+<CATALOG>
+	<REPLY>
+		<NAME>Bob</NAME>
+		<RANK>New User</RANK>
+		<KARMA>0</KARMA>
+		<POSTCOUNT>3</POSTCOUNT>
+		<TEXT>this is text this is text this is text this is text this is text</TEXT>
+		<DATE>4/27/2021, 12:24:58 PM</DATE>
+	</REPLY>
+	
+	<REPLY>
+		<NAME>Jim</NAME>
+		<RANK>rank</RANK>
+		<KARMA>56</KARMA>
+		<POSTCOUNT>2345</POSTCOUNT>
+		<TEXT>this is text this is text this is text this is text</TEXT>
+		<DATE>5/28/2021, 12:24:58 PM</DATE>
+	</REPLY>
+	
+	<REPLY>
+		<NAME>Joe</NAME>
+		<RANK>rank</RANK>
+		<KARMA>109</KARMA>
+		<POSTCOUNT>1234</POSTCOUNT>
+		<TEXT>this is text this is text this is text</TEXT>
+		<DATE>6/29/2021, 12:24:58 PM</DATE>
+	</REPLY>
+</CATALOG>

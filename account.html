@@ -1,13 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- Team4: IT Tech Support - Account/Profile Page - 3/16/2021 -->
-<!-- Logan Racer, Tanuj Rane, Zach Zulick, Evan Anzevino -->
-
+<!-- Team4: IT Tech Support - Account/Profile Page - (UPDATED 4/12/2021) -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<!-- Head -->
 	<head>
 		<title> IT Tech Support - Profile Summary </title>
 		<link rel = "stylesheet" href="css/it_help_desk.css">
+		<script src="http://www.cs.washington.edu/education/courses/cse190m/09sp/prototype.js" type="text/javascript"></script>
+		<script src="js/it_help_desk.js"></script>
 	</head>
 	
 	<!-- Body -->
@@ -22,18 +22,12 @@
 				
 				<!-- button links in the header -->
 				<div class = "header-links">
-
-					<button class="nav-button" onclick="location.href='site_home.html';"> Site Home </button>
-					 
-					<button class="nav-button" onclick="location.href='forum_main.html';"> Forum Index </button>
-					
-					<button class="nav-button" onclick="location.href='account.html';">User Profile</button>
-					
-					<button class="nav-button" onclick="location.href='login.html';">Log In</button>
-					
-					<button class="nav-button" onclick="location.href='registration.html';">Register</button>
-					
-					<button class="nav-button" onclick="location.href='https://google.com';">Sign Out</button>
+					<button class="nav-button" id = "nav-home"> Site Home </button>
+					<button class="nav-button" id = "nav-index"> Forum Index </button>
+					<button class="nav-button" id = "nav-account">User Profile</button>
+					<button class="nav-button" id = "nav-login">Log In</button>
+					<button class="nav-button" id = "nav-register">Register</button>
+					<button class="nav-button" id = "nav-logout">Sign Out</button>
 				</div>
 			</div>
 			
@@ -47,7 +41,9 @@
 						<span class = "topic-name"> Account Page </span>
 						<br>
 					</div>
-					<button class="btn-new-post" onclick="location.href='account_edit.html';"> Edit</button>
+					<div id="tool_bar">
+					<button class="btn-new-post" onclick= "edit();"> Edit</button>
+					</div>
 					<br>
 					<br>
 					<a href="http://google.com"><img src = "images/blank_user.png" class = "profile-picture"></a>
@@ -56,17 +52,18 @@
 				<hr>
 				
 				<div class= "user-dec">
-					<h3> Nickname: <span>BoB </span></h3> 
+				<div id = "profile">
+					<h3 > Nickname: <span id ='nick'>BoB </span></h3> 
 					<h3> Reputation Points: <span> 5 </span></h3>
 					<h3> Thread Created: <span> 5 </span></h3>
 					<h3> Replies: <span> 5 </span></h3>
 					<h3> Best Answers: <span> 5 </span></h3> 
-					
+					</div>
 					<br>
 					
-					<div class= "user-dec2">
+					<div class= "user-dec2" id='info'>
 						<h3> About Me: </h3>
-						<p>
+						<p id = 'summary'>
 							User created summary information
 						<p>
 					</div>

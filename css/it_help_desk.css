@@ -1,7 +1,4 @@
-/*
- * Team4: IT Tech Support - CSS File - 3/16/2021
- * Logan Racer, Tanuj Rane, Zach Zulick, Evan Anzevino
- */
+/* IT Help Desk - it_help_desk.css - (UPDATED 4/12/2021)*/
 
 /*  
  * Colors used:
@@ -11,7 +8,6 @@
  * White -  #f5f0e1
  * Grey - 	 #d9d9d9
  */
-
 
 /* ========================= Navigation Bar =================================== */
 .nav-button {
@@ -251,10 +247,30 @@ a:hover {
 	background-color: #ffc13b;
 	color: #000000;
 	height: auto;
+}
+
+.reply-header {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 1px;
+	margin-top: 40px;
+	padding: 10px;
+	background-color: #ffc13b;
+	color: #000000;
+	height: auto;
 
 }
 
 .original-post {
+	/*border-style: solid;
+	border-width: 1px;*/
+	margin: 2px;
+	padding: 2px;
+	height: auto;
+	overflow:auto;
+}
+
+.reply {
 	/*border-style: solid;
 	border-width: 1px;*/
 	margin: 2px;
@@ -333,6 +349,41 @@ a:hover {
 	padding: 5px;
 	color: #595959;
 	font-size: 14px;
+	display: flex;
+}
+
+.btn-best-answer {
+	background-color:#1e3d59;
+	color: white;
+	padding: 7px;
+	margin: auto;
+	margin-left: 0px;
+	margin-right: 382px;
+	font-size: 14px;
+	font-family: Rockwell, Times New Roman, Sans-Serif;
+	border: none;
+	float: left;
+	clear: all;
+}
+
+.btn-best-answer:hover {
+	background-color: #ff6e40;
+}
+
+.btn-remove-best-ans {
+	background-color:#1e3d59;
+	color: white;
+	padding: 4px;
+	margin: 2px;
+	font-size: 12px;
+	font-family: Rockwell, Times New Roman, Sans-Serif;
+	border: none;
+	float: right;
+	clear: all;
+}
+
+.btn-remove-best-ans:hover {
+	background-color: #ff6e40;
 }
 
 
